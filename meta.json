@@ -4,23 +4,22 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "token",
+            "title":"Authentication token"
+        },
+        {
+            "id": "channel",
+            "title":"Group to leave"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "ok",
+            "title":"ok"
         }
-      */
     ],
-    "title": "Slack Leave Group" /* Required.A display name for the module */
+    /* Required.A display name for the module */
+    "title": "Slack Leave Group"
 }
