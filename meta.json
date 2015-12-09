@@ -20,6 +20,7 @@
             "title":"ok"
         }
     ],
+    "icon": "slack",
     /* Required.A display name for the module */
     "title": "Slack Leave Group"
 }
